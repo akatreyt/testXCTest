@@ -14,6 +14,8 @@
 		63CAC7131A93A6D500F4AC00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAC7121A93A6D500F4AC00 /* Images.xcassets */; };
 		63CAC7161A93A6D500F4AC00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CAC7141A93A6D500F4AC00 /* LaunchScreen.xib */; };
 		63CAC7221A93A6D500F4AC00 /* xctestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CAC7211A93A6D500F4AC00 /* xctestTests.m */; };
+		63E7019F1A93B6A8009AAE1A /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E7019E1A93B6A8009AAE1A /* TestObject.m */; };
+		63E701A11A93BAD2009AAE1A /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E701A01A93BAD2009AAE1A /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		63CAC71B1A93A6D500F4AC00 /* xctestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xctestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CAC7201A93A6D500F4AC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CAC7211A93A6D500F4AC00 /* xctestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xctestTests.m; sourceTree = "<group>"; };
+		63E7019D1A93B6A8009AAE1A /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		63E7019E1A93B6A8009AAE1A /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		63E701A01A93BAD2009AAE1A /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				63CAC7121A93A6D500F4AC00 /* Images.xcassets */,
 				63CAC7141A93A6D500F4AC00 /* LaunchScreen.xib */,
 				63CAC7051A93A6D500F4AC00 /* Supporting Files */,
+				63E7019D1A93B6A8009AAE1A /* TestObject.h */,
+				63E7019E1A93B6A8009AAE1A /* TestObject.m */,
 			);
 			path = xctest;
 			sourceTree = "<group>";
@@ -107,6 +114,7 @@
 			children = (
 				63CAC7211A93A6D500F4AC00 /* xctestTests.m */,
 				63CAC71F1A93A6D500F4AC00 /* Supporting Files */,
+				63E701A01A93BAD2009AAE1A /* ViewControllerTests.m */,
 			);
 			path = xctestTests;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				63CAC70E1A93A6D500F4AC00 /* ViewController.m in Sources */,
 				63CAC70B1A93A6D500F4AC00 /* AppDelegate.m in Sources */,
+				63E7019F1A93B6A8009AAE1A /* TestObject.m in Sources */,
 				63CAC7081A93A6D500F4AC00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E701A11A93BAD2009AAE1A /* ViewControllerTests.m in Sources */,
 				63CAC7221A93A6D500F4AC00 /* xctestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +424,7 @@
 				63CAC7271A93A6D500F4AC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CAC7281A93A6D500F4AC00 /* Build configuration list for PBXNativeTarget "xctestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				63CAC72A1A93A6D500F4AC00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
